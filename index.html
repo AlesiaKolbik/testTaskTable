@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="table-block">
+    <table>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <p class="errorMsg hidden">You should select color and number cell.</p>
+        <select id="selectedCellColor">
+            <option></option>
+            <option>red</option>
+            <option>blue</option>
+        </select>
+        <input type="number" min="1" max="12" id="selectedCellNumber">
+        <button type="submit" id="changeColors">Выбрать</button>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
